@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="31" height="31" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="83">
+ <editorsettings>
+  <export target="data.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="border" value="fire"/>
+  <property name="music" value="mus_anothermedium"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/bg_firetiles.tsx"/>
+ <tileset firstgid="289" source="../../tilesets/bg_girdertile.tsx"/>
+ <objectgroup id="6" name="objects_bg"/>
+ <layer id="1" name="Tile Layer 1" width="31" height="31">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,111,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,128,129,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,73,128,75,0,0,73,128,75,0,0,73,74,75,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,128,92,128,0,0,128,92,128,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,109,128,111,0,0,109,128,111,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,127,128,129,0,0,127,128,129,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,73,128,75,0,0,73,128,75,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,128,92,128,0,0,128,92,128,0,0,91,92,19,74,74,74,
+0,0,0,0,0,0,0,0,0,0,109,110,111,0,0,109,128,111,0,0,109,128,111,0,0,91,92,92,92,92,92,
+0,0,0,0,0,0,0,0,0,0,127,128,129,0,0,127,128,129,0,0,127,128,129,0,0,109,110,110,110,110,110,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,128,128,128,128,128,
+0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,73,128,75,0,0,73,128,75,0,0,73,74,75,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,128,92,128,0,0,128,92,128,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,109,110,111,0,0,109,128,111,0,0,109,128,111,0,0,109,110,111,0,0,0,
+0,0,0,0,0,0,0,0,0,0,127,128,129,0,0,127,128,129,0,0,127,128,129,0,0,127,128,129,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,73,74,75,0,0,73,74,75,0,0,73,74,75,0,0,0,
+0,0,0,0,0,0,0,0,0,0,91,92,93,0,0,91,92,93,0,0,91,92,93,0,0,91,92,93,0,0,0,
+0,0,0,0,0,0,0,0,0,0,109,110,111,0,0,109,110,111,0,0,109,110,111,0,0,109,110,111,0,0,0,
+0,0,0,0,0,0,0,0,0,0,127,128,129,0,0,127,128,129,0,0,127,128,129,0,0,127,128,129,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="31" height="31">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,10,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,28,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,62,64,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,10,0,0,7,0,10,0,0,7,8,10,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,291,291,0,0,0,291,291,0,0,0,291,291,25,0,28,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,0,64,0,0,61,0,64,0,0,61,62,64,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,298,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,298,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,7,8,10,0,0,7,0,10,0,0,7,0,10,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,25,0,28,291,291,0,0,0,291,291,0,0,0,291,291,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,61,62,64,0,0,61,0,64,0,0,61,0,64,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,7,8,10,0,0,7,0,10,0,0,7,0,10,0,0,7,8,10,0,0,0,
+0,0,0,0,0,0,0,0,0,0,25,0,28,290,291,0,0,0,291,291,0,0,0,291,291,25,0,28,0,0,0,
+0,0,0,0,0,0,0,0,0,0,61,62,64,0,0,61,0,64,0,0,61,0,64,0,0,61,62,64,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,298,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,7,8,10,0,0,7,8,10,0,0,7,8,10,0,0,7,8,10,0,0,0,
+0,0,0,0,0,0,0,0,0,0,25,0,28,291,291,25,0,28,291,291,25,0,28,291,291,25,0,28,0,0,0,
+0,0,0,0,0,0,0,0,0,0,61,62,64,0,0,61,62,64,0,0,61,62,64,0,0,61,62,64,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="3" name="collision">
+  <object id="32" x="960" y="440" width="40" height="360"/>
+  <object id="33" x="1000" y="800" width="240" height="40"/>
+  <object id="34" x="1000" y="400" width="120" height="40"/>
+  <object id="35" x="1120" y="440" width="40" height="240"/>
+  <object id="36" x="1160" y="640" width="80" height="40"/>
+  <object id="37" x="800" y="200" width="120" height="40"/>
+  <object id="38" x="920" y="240" width="40" height="120"/>
+  <object id="39" x="800" y="360" width="120" height="40"/>
+  <object id="40" x="760" y="240" width="40" height="120"/>
+  <object id="41" x="800" y="400" width="120" height="40"/>
+  <object id="42" x="920" y="440" width="40" height="120"/>
+  <object id="43" x="800" y="560" width="120" height="40"/>
+  <object id="44" x="760" y="440" width="40" height="120"/>
+  <object id="45" x="800" y="600" width="120" height="40"/>
+  <object id="46" x="920" y="640" width="40" height="120"/>
+  <object id="47" x="800" y="760" width="120" height="40"/>
+  <object id="48" x="760" y="640" width="40" height="120"/>
+  <object id="49" x="800" y="800" width="120" height="40"/>
+  <object id="50" x="920" y="840" width="40" height="120"/>
+  <object id="51" x="800" y="960" width="120" height="40"/>
+  <object id="52" x="760" y="840" width="40" height="120"/>
+  <object id="53" x="720" y="840" width="40" height="120"/>
+  <object id="54" x="600" y="960" width="120" height="40"/>
+  <object id="55" x="560" y="840" width="40" height="120"/>
+  <object id="56" x="600" y="800" width="120" height="40"/>
+  <object id="57" x="600" y="760" width="120" height="40"/>
+  <object id="58" x="720" y="640" width="40" height="120"/>
+  <object id="59" x="600" y="600" width="120" height="40"/>
+  <object id="60" x="600" y="560" width="120" height="40"/>
+  <object id="61" x="600" y="400" width="120" height="40"/>
+  <object id="62" x="720" y="440" width="40" height="120"/>
+  <object id="63" x="560" y="440" width="40" height="120"/>
+  <object id="64" x="560" y="640" width="40" height="120"/>
+  <object id="65" x="360" y="440" width="40" height="320"/>
+  <object id="66" x="400" y="760" width="120" height="40"/>
+  <object id="67" x="520" y="440" width="40" height="320"/>
+  <object id="68" x="400" y="400" width="120" height="40"/>
+  <object id="70" x="640" y="440" width="40" height="40"/>
+  <object id="71" x="640" y="520" width="40" height="40"/>
+  <object id="72" x="800" y="680" width="40" height="40"/>
+  <object id="73" x="880" y="680" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="7" name="objects_vents">
+  <object id="4" name="ventlauncher" x="1000" y="480" width="40" height="40">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="19" name="ventlauncher" x="800" y="880" width="40" height="40">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="29" name="ventlauncher" x="600" y="880" width="40" height="40">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="24" name="ventlauncher" x="600" y="680" width="40" height="40">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="ventlauncher" x="440" y="680" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="200"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="ventlauncher" x="440" y="880" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="200"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" name="ventlauncher" x="840" y="920" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="25" name="ventlauncher" x="640" y="720" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="31" name="ventlauncher" x="640" y="920" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" name="ventlauncher" x="880" y="880" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="20" name="ventlauncher" x="680" y="880" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="12" name="ventlauncher" x="440" y="1080" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="200"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" name="ventlauncher" x="640" y="1080" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="200"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" name="ventlauncher" x="840" y="1080" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="200"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" name="ventlauncher" x="1040" y="1080" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="200"/>
+    <property name="sequence_jump" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="ventlauncher" x="1040" y="880" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="sequence_jump" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="5" name="ventlauncher" x="840" y="320" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="23" name="ventlauncher" x="840" y="720" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="6" name="ventlauncher" x="880" y="480" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="switch_state" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="28" name="ventlauncher" x="680" y="480" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="switch_state" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="74" name="ventlauncher" x="600" y="480" width="40" height="40">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="switch_state" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="75" name="ventlauncher" x="800" y="480" width="40" height="40">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="switch_state" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="27" name="ventlauncher" x="680" y="680" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="7" name="ventlauncher" x="840" y="840" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="30" name="ventlauncher" x="640" y="840" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="21" name="ventlauncher" x="840" y="440" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="switch_state" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="76" name="ventlauncher" x="840" y="520" width="40" height="40">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" type="int" value="160"/>
+    <property name="switch_state" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="22" name="ventlauncher" x="840" y="640" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="26" name="ventlauncher" x="640" y="640" width="40" height="40">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" type="int" value="160"/>
+   </properties>
+  </object>
+  <object id="77" name="ventswitch" x="1040" y="480" width="40" height="40"/>
+  <object id="78" name="ventswitch" x="840" y="480" width="40" height="40"/>
+  <object id="80" name="ventswitch" x="640" y="680" width="40" height="40"/>
+  <object id="81" name="ventswitch" x="640" y="480" width="40" height="40"/>
+  <object id="79" name="ventswitch" x="840" y="680" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="5" name="objects">
+  <object id="82" name="transition" x="1240" y="680" width="40" height="120">
+   <properties>
+    <property name="map" value="fire_vents_rotating"/>
+    <property name="marker" value="entry_left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="4" name="markers">
+  <object id="2" name="entry_right" x="1200" y="740">
+   <point/>
+  </object>
+  <object id="3" name="spawn" x="1060" y="740">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
