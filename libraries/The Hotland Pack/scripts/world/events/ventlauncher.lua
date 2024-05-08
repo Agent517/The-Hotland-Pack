@@ -37,7 +37,7 @@ function VentLauncher:init(data)
         self.visible = false
     end
     Game.world.timer:after(1/30, function ()
-        --self.layer = 0.2 -- I don't know why, but the layer gets reset back to 0.4 somewhere after the init, so setting it to 0.2 is done a frame later
+        self.layer = self.layer - 0.1 -- I don't know why, but the layer gets reset somewhere after the init, so lowering it is done a frame later
     end)
 
     self.con = 0

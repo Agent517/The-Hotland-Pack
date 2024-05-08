@@ -17,6 +17,9 @@ function VentSteam:init()
     self.physics.speed = 6
     self.physics.friction = 0.1
 
+    Game.world.timer:after(1/30, function ()
+        self.layer = WORLD_LAYERS['above_events']
+    end)
 
 end
 
