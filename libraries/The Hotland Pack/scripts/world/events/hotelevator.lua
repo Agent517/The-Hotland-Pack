@@ -97,6 +97,11 @@ function Elevator:postLoad()
             break
         end
     end
+
+    local transition = Game.world.map:getEvent("transition")
+    if transition and transition.target.map == nil then
+        self:setCurrentFloor(1)
+    end
 end
 
 function Elevator:setExit(map)

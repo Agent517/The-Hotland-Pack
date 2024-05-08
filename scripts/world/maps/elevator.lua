@@ -1,8 +1,7 @@
 return {
-  version = "1.10",
+  version = "1.5",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
-  class = "",
+  tiledversion = "1.8.6",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 16,
@@ -27,7 +26,6 @@ return {
       draworder = "topdown",
       id = 6,
       name = "collision",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -108,7 +106,6 @@ return {
       draworder = "topdown",
       id = 11,
       name = "objects_elevator",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -153,7 +150,6 @@ return {
       draworder = "topdown",
       id = 5,
       name = "markers",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -208,7 +204,6 @@ return {
       draworder = "topdown",
       id = 4,
       name = "objects",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -242,7 +237,6 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["map"] = "room1",
             ["marker"] = "entry_elevator"
           }
         }

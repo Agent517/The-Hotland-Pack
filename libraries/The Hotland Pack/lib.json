@@ -2,7 +2,11 @@
     "id": "hotland-pack",
     "authors": [
         "Agent 7",
-        "Bor" // FireBG
+        "Bor", // FireBG
+        "Nyakorita", // Original elevator library
+        
+        // Github Contributors
+        "TheCodingPro"
     ],
     "version": "v1.0.0",
     "engineVer": "v0.9.0",
