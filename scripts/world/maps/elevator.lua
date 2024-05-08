@@ -1,25 +1,33 @@
 return {
-  version = "1.5",
+  version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.8.6",
+  tiledversion = "1.10.2",
+  class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 16,
   height = 12,
   tilewidth = 40,
   tileheight = 40,
-  nextlayerid = 9,
-  nextobjectid = 34,
+  nextlayerid = 16,
+  nextobjectid = 38,
   properties = {
     ["border"] = "fire"
   },
-  tilesets = {},
+  tilesets = {
+    {
+      name = "bg_firetiles",
+      firstgid = 1,
+      filename = "../tilesets/bg_firetiles.tsx"
+    }
+  },
   layers = {
     {
       type = "objectgroup",
       draworder = "topdown",
       id = 6,
       name = "collision",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -98,8 +106,9 @@ return {
     {
       type = "objectgroup",
       draworder = "topdown",
-      id = 4,
-      name = "objects",
+      id = 11,
+      name = "objects_elevator",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -109,37 +118,8 @@ return {
       properties = {},
       objects = {
         {
-          id = 6,
-          name = "elevatorbuttons",
-          type = "",
-          shape = "rectangle",
-          x = 360,
-          y = 200,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 7,
-          name = "transition",
-          type = "",
-          shape = "rectangle",
-          x = 280,
-          y = 480,
-          width = 80,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["map"] = "room1",
-            ["marker"] = "entry_elevator"
-          }
-        },
-        {
-          id = 29,
-          name = "elevator",
+          id = 37,
+          name = "hotelevator",
           type = "",
           shape = "rectangle",
           x = 0,
@@ -149,6 +129,9 @@ return {
           rotation = 0,
           visible = true,
           properties = {
+            ["background_1"] = "rooms/elevator",
+            ["backgrounddoors_1"] = "rooms/elevator_door_left",
+            ["backgrounddoors_2"] = "rooms/elevator_door_right",
             ["color_1"] = "#ff6f1414",
             ["color_2"] = "#ff6f1414",
             ["color_3"] = "#ff6f1414",
@@ -170,6 +153,7 @@ return {
       draworder = "topdown",
       id = 5,
       name = "markers",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -216,6 +200,51 @@ return {
           rotation = 0,
           visible = true,
           properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 4,
+      name = "objects",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 6,
+          name = "hotelevatorbuttons",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 200,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 7,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 480,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "room1",
+            ["marker"] = "entry_elevator"
+          }
         }
       }
     }

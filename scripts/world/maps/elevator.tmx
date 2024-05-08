@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="34">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="16" nextobjectid="38">
  <editorsettings>
   <export target="elevator.lua" format="lua"/>
  </editorsettings>
  <properties>
   <property name="border" value="fire"/>
  </properties>
+ <tileset firstgid="1" source="../tilesets/bg_firetiles.tsx"/>
  <objectgroup color="#0000ff" id="6" name="collision">
   <object id="21" x="160" y="240" width="40" height="120"/>
   <object id="23" x="201" y="200" width="240" height="41"/>
@@ -13,16 +14,12 @@
   <object id="25" x="200" y="360" width="80" height="120"/>
   <object id="26" x="360" y="360" width="80" height="120"/>
  </objectgroup>
- <objectgroup color="#ff00ff" id="4" name="objects">
-  <object id="6" name="elevatorbuttons" x="360" y="200" width="40" height="40"/>
-  <object id="7" name="transition" x="280" y="480" width="80" height="40">
+ <objectgroup id="11" name="objects_elevator">
+  <object id="37" name="hotelevator" x="0" y="0" width="40" height="40">
    <properties>
-    <property name="map" value="room1"/>
-    <property name="marker" value="entry_elevator"/>
-   </properties>
-  </object>
-  <object id="29" name="elevator" x="0" y="0" width="40" height="40">
-   <properties>
+    <property name="background_1" value="rooms/elevator"/>
+    <property name="backgrounddoors_1" value="rooms/elevator_door_left"/>
+    <property name="backgrounddoors_2" value="rooms/elevator_door_right"/>
     <property name="color_1" type="color" value="#ff6f1414"/>
     <property name="color_2" type="color" value="#ff6f1414"/>
     <property name="color_3" type="color" value="#ff6f1414"/>
@@ -47,6 +44,15 @@
   </object>
   <object id="32" name="buttons" x="380" y="260">
    <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="4" name="objects">
+  <object id="6" name="hotelevatorbuttons" x="280" y="200" width="80" height="40"/>
+  <object id="7" name="transition" x="280" y="480" width="80" height="40">
+   <properties>
+    <property name="map" value="room1"/>
+    <property name="marker" value="entry_elevator"/>
+   </properties>
   </object>
  </objectgroup>
 </map>
