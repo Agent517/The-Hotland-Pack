@@ -1,8 +1,7 @@
 return {
-  version = "1.10",
+  version = "1.5",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
-  class = "",
+  tiledversion = "1.8.6",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 30,
@@ -32,7 +31,6 @@ return {
       height = 20,
       id = 6,
       name = "bg",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -72,7 +70,6 @@ return {
       height = 20,
       id = 1,
       name = "Tile Layer 1",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -112,7 +109,6 @@ return {
       height = 20,
       id = 7,
       name = "decals",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -149,7 +145,6 @@ return {
       draworder = "topdown",
       id = 2,
       name = "collision",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -425,7 +420,6 @@ return {
       draworder = "topdown",
       id = 9,
       name = "objects_elevator",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -454,7 +448,6 @@ return {
       draworder = "topdown",
       id = 8,
       name = "objects_vents",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -467,51 +460,8 @@ return {
     {
       type = "objectgroup",
       draworder = "topdown",
-      id = 3,
-      name = "markers",
-      class = "",
-      visible = true,
-      opacity = 1,
-      offsetx = 0,
-      offsety = 0,
-      parallaxx = 1,
-      parallaxy = 1,
-      properties = {},
-      objects = {
-        {
-          id = 12,
-          name = "spawn",
-          type = "",
-          shape = "point",
-          x = 600,
-          y = 520,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 43,
-          name = "entry_elevator",
-          type = "",
-          shape = "point",
-          x = 580,
-          y = 160,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        }
-      }
-    },
-    {
-      type = "objectgroup",
-      draworder = "topdown",
       id = 5,
       name = "battleareas",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -526,7 +476,6 @@ return {
       draworder = "topdown",
       id = 4,
       name = "objects",
-      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -591,6 +540,47 @@ return {
             ["map"] = "elevator",
             ["marker"] = "entry"
           }
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 3,
+      name = "markers",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 12,
+          name = "spawn",
+          type = "",
+          shape = "point",
+          x = 600,
+          y = 520,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 43,
+          name = "entry_elevator",
+          type = "",
+          shape = "point",
+          x = 580,
+          y = 160,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     }

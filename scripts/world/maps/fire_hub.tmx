@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="10" nextobjectid="63">
+<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="10" nextobjectid="63">
  <editorsettings>
   <export target="fire_hub.lua" format="lua"/>
  </editorsettings>
@@ -107,14 +107,6 @@
   <object id="42" name="elevatordoor" x="520" y="80" width="120" height="40"/>
  </objectgroup>
  <objectgroup color="#aa0000" id="8" name="objects_vents"/>
- <objectgroup color="#7f00ff" id="3" name="markers">
-  <object id="12" name="spawn" x="600" y="520">
-   <point/>
-  </object>
-  <object id="43" name="entry_elevator" x="580" y="160">
-   <point/>
-  </object>
- </objectgroup>
  <objectgroup id="5" name="battleareas"/>
  <objectgroup color="#ff00ff" id="4" name="objects">
   <object id="13" name="savepoint" x="600" y="560">
@@ -131,6 +123,14 @@ Thanks in advance.</property>
     <property name="map" value="elevator"/>
     <property name="marker" value="entry"/>
    </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="3" name="markers">
+  <object id="12" name="spawn" x="600" y="520">
+   <point/>
+  </object>
+  <object id="43" name="entry_elevator" x="580" y="160">
+   <point/>
   </object>
  </objectgroup>
 </map>
