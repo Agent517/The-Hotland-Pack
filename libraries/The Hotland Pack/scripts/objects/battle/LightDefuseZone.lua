@@ -56,9 +56,11 @@ function DefuseZone:draw()
         love.graphics.setColor(COLORS.green)
     end
     --love.graphics.setLineWidth(3)
-    love.graphics.rectangle("line", 0, 0, self.width, self.height)
+    --love.graphics.rectangle("line", 0, 0, self.width, self.height)
+	love.graphics.draw(Assets.getTexture("ui/battle/bomb/defusebox_zone"), 0, 0)
+	love.graphics.draw(Assets.getTexture("ui/battle/bomb/defusebox_label"), 0, -60, math.rad(0), 2, 2)
     if self.flasher > 0 then
-        love.graphics.rectangle("fill", 0, 0, self.width, self.height)
+        love.graphics.rectangle("fill", 6, 6, self.width - 12, self.height - 12)
     end
 end
 

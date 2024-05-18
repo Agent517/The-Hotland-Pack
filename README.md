@@ -13,6 +13,8 @@
     - Toggleable variant controlled by that one floor switch found in exactly one room of the game
         - That one floor switch found in exactly one room of the game
 - A small collection of rooms to test everything
+- The infamous tile maze
+- Basic Hotland Elevator
 
 ### Planned features
 - More tilesets
@@ -20,7 +22,5 @@
 - Shootguy puzzles
 - Bomb enemies
     - Magical Glass compatible!
-- The infamous tile maze
-- An accurate elevator (Current test maps use the DR elevator library made by Nyako)
 - And more! (Because I've probably forgotten some things)
 

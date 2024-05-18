@@ -16,7 +16,7 @@ function Dummy:init()
 
     self.offset = 0
 
-    self.defuser = LightDefuseZone(270, 40, 100, 200, true)
+    self.defuser = LightDefuseZone(270, 70, 69, 161, true)
     Game.battle:addChild(self.defuser)
     self.siner = 0
 
