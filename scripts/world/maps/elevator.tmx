@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="16" nextobjectid="38">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="16" nextobjectid="38">
  <editorsettings>
   <export target="elevator.lua" format="lua"/>
  </editorsettings>
  <properties>
   <property name="border" value="fire"/>
+  <property name="light" type="bool" value="false"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/bg_firetiles.tsx"/>
  <objectgroup color="#0000ff" id="6" name="collision">
@@ -23,15 +24,19 @@
     <property name="color_1" type="color" value="#ff6f1414"/>
     <property name="color_2" type="color" value="#ff6f1414"/>
     <property name="color_3" type="color" value="#ff6f1414"/>
+    <property name="color_4" type="color" value="#ff6f1414"/>
     <property name="dest_1" value="fire_hub"/>
     <property name="dest_2" value="fire_laser"/>
     <property name="dest_3" value="fire_vents"/>
+    <property name="dest_4" value="fire_tiles"/>
     <property name="length_1" type="int" value="80"/>
     <property name="length_2" type="int" value="80"/>
     <property name="length_3" type="int" value="80"/>
+    <property name="length_4" type="int" value="80"/>
     <property name="name_1" value="Starting Floor"/>
     <property name="name_2" value="Laser Floor"/>
     <property name="name_3" value="Vents Floor"/>
+    <property name="name_4" value="Tiles Floor"/>
    </properties>
   </object>
  </objectgroup>
@@ -50,6 +55,7 @@
   <object id="6" name="hotelevatorbuttons" x="280" y="200" width="80" height="40"/>
   <object id="7" name="transition" x="280" y="480" width="80" height="40">
    <properties>
+    <property name="map" value="room1"/>
     <property name="marker" value="entry_elevator"/>
    </properties>
   </object>

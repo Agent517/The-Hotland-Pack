@@ -1,7 +1,8 @@
 return {
-  version = "1.5",
+  version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.8.6",
+  tiledversion = "1.10.2",
+  class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 16,
@@ -11,7 +12,8 @@ return {
   nextlayerid = 16,
   nextobjectid = 38,
   properties = {
-    ["border"] = "fire"
+    ["border"] = "fire",
+    ["light"] = false
   },
   tilesets = {
     {
@@ -26,6 +28,7 @@ return {
       draworder = "topdown",
       id = 6,
       name = "collision",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -106,6 +109,7 @@ return {
       draworder = "topdown",
       id = 11,
       name = "objects_elevator",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -132,15 +136,19 @@ return {
             ["color_1"] = "#ff6f1414",
             ["color_2"] = "#ff6f1414",
             ["color_3"] = "#ff6f1414",
+            ["color_4"] = "#ff6f1414",
             ["dest_1"] = "fire_hub",
             ["dest_2"] = "fire_laser",
             ["dest_3"] = "fire_vents",
+            ["dest_4"] = "fire_tiles",
             ["length_1"] = 80,
             ["length_2"] = 80,
             ["length_3"] = 80,
+            ["length_4"] = 80,
             ["name_1"] = "Starting Floor",
             ["name_2"] = "Laser Floor",
-            ["name_3"] = "Vents Floor"
+            ["name_3"] = "Vents Floor",
+            ["name_4"] = "Tiles Floor"
           }
         }
       }
@@ -150,6 +158,7 @@ return {
       draworder = "topdown",
       id = 5,
       name = "markers",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -204,6 +213,7 @@ return {
       draworder = "topdown",
       id = 4,
       name = "objects",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -237,6 +247,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
+            ["map"] = "room1",
             ["marker"] = "entry_elevator"
           }
         }
